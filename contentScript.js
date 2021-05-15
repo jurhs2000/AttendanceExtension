@@ -1,8 +1,6 @@
-let participantsArray = []
 let attendance = {
     date: new Date().toLocaleDateString(),
 }
-participantsArray.push(new Date().toLocaleDateString())
 
 function saveStaticDataToFile() {
     let archivo = ''
@@ -39,9 +37,7 @@ setInterval(() => {
         let participants = list.querySelectorAll('[role="application"]')
         participants.forEach((participant) => {
             if (!attendance.hasOwnProperty(participant.getAttribute('aria-label'))) {
-                let name = participant.getAttribute('aria-label')
                 attendance[participant.getAttribute('aria-label')] = new Date().toLocaleTimeString()
-                participantsArray.push(participant.getAttribute('aria-label'))
             }
         })
     }
