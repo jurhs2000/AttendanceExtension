@@ -1,0 +1,37 @@
+.button-generate {
+    background-color: #0e71eb;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.button-generate:hover {
+    background-color: #2681f2;
+}
+
+.download-link {
+    background-color: #0e71eb;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.download-link:hover {
+    background-color: #2681f2;
+    color: white;
+}
+
+.not-downloadable {
+    background-color: #696969;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    cursor: not-allowed;
+}
+
+.not-downloadable:hover {
+    color: white;
+}
