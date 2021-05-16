@@ -1,6 +1,7 @@
 # Zoom Attendance Extension
 
 A Chrome Extension for [zoom.us](https://zoom.us/) automatic class attendance.
+[video demostration on Youtube](https://www.youtube.com/watch?v=nDBmKk-5e1g)
 
 # Usage
 
